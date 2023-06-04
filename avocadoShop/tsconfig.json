@@ -22,10 +22,11 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@components/*": ["src/components/*"],
+      "@cors": ["src/cors-middleware.ts"],
+      "@database": ["src/database/db.ts"]
     },
     "strictNullChecks": true
   },

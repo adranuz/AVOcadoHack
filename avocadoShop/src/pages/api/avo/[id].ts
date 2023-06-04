@@ -1,4 +1,4 @@
-import Database from "@/database/db";
+import Database from "@database";
 import { NextApiRequest, NextApiResponse } from "next";
 
 const oneAvos = async (request: NextApiRequest, response: NextApiResponse) => {

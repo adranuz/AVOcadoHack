@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 export default function Product() {
@@ -13,7 +12,6 @@ export default function Product() {
 	});
 	return (
 		<>
-			<Navbar />
 			<ul>
 				{productList.map((product) => (
 					<li>
